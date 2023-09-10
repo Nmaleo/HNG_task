@@ -45,8 +45,8 @@ server.get("/api", (req, res) => {
     utc_time: new Date().toISOString().split(".")[0] + "Z",
     track: req.query.track,
     github_file_url:
-      "https://github.com/thereson/student_access_endpint/index.js",
-    github_repo_url: "https://github.com/thereson/student_access_endpint",
+      "https://github.com/Nmaleo/student_access_endpint/index.js",
+    github_repo_url: "https://github.com/Nmaleo/HNG_task",
     status_code: 200,
   };
   res.json(responce);
