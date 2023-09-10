@@ -22,7 +22,8 @@ server.get("/api", (req, res) => {
     github_repo_url: "https://github.com/Nmaleo/HNG_task",
     status_code: 200,
   };
-  res.json(responce);
+  let data = JSON.stringify(responce)
+  res.json(data);
 });
 
 server.listen(9000, () => {
