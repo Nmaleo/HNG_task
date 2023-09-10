@@ -41,11 +41,11 @@ let getutc = () => {
 server.get("/api", (req, res) => {
   let responce = {
     slack_name: req.query.slack_name,
-    current_day: weekdays[new Date().getDay() - 1],
+    current_DAY: weekdays[new Date().getDay() - 1],
     utc_time: new Date().toISOString().split(".")[0] + "Z",
     track: req.query.track,
     github_file_url:
-      "https://github.com/Nmaleo/student_access_endpint/index.js",
+      "https://github.com/Nmaleo/HNG_task/index.js",
     github_repo_url: "https://github.com/Nmaleo/HNG_task",
     status_code: 200,
   };
