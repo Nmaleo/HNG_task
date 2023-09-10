@@ -1,0 +1,22 @@
+{
+  "name": "zuri",
+  "version": "1.0.0",
+  "description": "this is an api for getting student information. it is writing purely in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thereson/student_access_endpint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thereson/student_access_endpint/issues"
+  },
+  "homepage": "https://github.com/thereson/student_access_endpint#readme"
+}
