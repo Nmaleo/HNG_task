@@ -23,7 +23,7 @@ server.get("/api", (req, res) => {
     status_code: 200,
   };
   let data = JSON.stringify(responce)
-  res.json(data);
+  res.send(data);
 });
 
 server.listen(9000, () => {
